@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+    <h1>Notes</h1>
+    <table id="table">
+      <tr>
+        <td><label class="label" for="notes">Notes</label></td>
+        <td><input type="text" id="txtNotes"></td>
+      </tr>
+      <tr>        
+        <td><label class="label" for="description">Description</label></td>
+        <td><textarea id="txtDescription" rows="5"></textarea> </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <button class="btn-save" id="btnSave">Save</button>
+          <button class="btn-cancel" id="btnCancel">Cancel</button>
+        </td>
+      </tr>
+    </table>   
+    
+    
+  </div>
+  <h2>List of Notes</h2>
+  
+
+  <table id="tbl-Notes">
+     <tr>
+       <th>Notes</th><th style="min-width:300px !important;">Description</th>
+       <th>Edit</th><th>Delete</th>
+     </tr>
+     <tr id="insert">       
+     </tr>
+  </table>
+  <script src="app.js"></script>
+</body>
+</html>
